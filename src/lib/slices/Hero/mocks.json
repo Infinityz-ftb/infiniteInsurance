@@ -1,0 +1,67 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"heading": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading1",
+						"content": {
+							"text": "Leather"
+						}
+					}
+				]
+			},
+			"body": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Sint elit et commodo anim aliqua sit duis. Lorem veniam elit labore cillum amet deserunt eu aute sunt et irure et deserunt culpa."
+						}
+					}
+				]
+			},
+			"button_link": {
+				"key": "59f5475c-2281-4be7-873b-db1b1cabba21",
+				"__TYPE__": "LinkContent",
+				"value": {
+					"__TYPE__": "ExternalLink",
+					"url": "https://slicemachine.dev",
+					"text": "mighty"
+				}
+			},
+			"button_label": {
+				"__TYPE__": "FieldContent",
+				"value": "bar",
+				"type": "Text"
+			},
+			"image": {
+				"__TYPE__": "ImageContent",
+				"origin": {
+					"id": "main",
+					"url": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2",
+					"width": 5616,
+					"height": 3744
+				},
+				"url": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2",
+				"width": 5616,
+				"height": 3744,
+				"edit": {
+					"zoom": 1,
+					"crop": {
+						"x": 0,
+						"y": 0
+					},
+					"background": "transparent"
+				},
+				"alt": "brief",
+				"thumbnails": {}
+			}
+		},
+		"items": []
+	}
+]
