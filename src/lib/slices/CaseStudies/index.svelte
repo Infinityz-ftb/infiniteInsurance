@@ -49,10 +49,10 @@
 					</div>
 					<div class={clsx('relative lg:col-span-2', index % 2 && 'md:-order-1')}>
 						<div
-							class="image-glow bg-orange-500 -bottom-8 -left-4 absolute h-1/2 w-1/2 rounded-full opacity-0 mix-blend-screen blur-3xl transition-opacity duration-500 group-hover:opacity-30"
+							class="image-glow bg-white-500 -bottom-8 -left-4 absolute h-1/2 w-1/2 rounded-full opacity-0 mix-blend-screen blur-3xl transition-opacity duration-500 group-hover:opacity-30"
 						></div>
 						<div
-							class="image-glow bg-violet-500 -right-4 -top-8 absolute h-1/2 w-1/2 rounded-full opacity-0 mix-blend-screen blur-3xl transition-opacity duration-500 group-hover:opacity-30"
+							class="image-glow bg-blue-500 -right-4 -top-8 absolute h-1/2 w-1/2 rounded-full opacity-0 mix-blend-screen blur-3xl transition-opacity duration-500 group-hover:opacity-30"
 						></div>
 						<PrismicImage
 							field={item.case_study.data?.image}

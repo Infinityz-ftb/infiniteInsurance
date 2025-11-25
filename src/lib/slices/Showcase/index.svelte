@@ -77,7 +77,7 @@
 	class="realative"
 >
 	<div
-		class=" showcase__glow absolute -z-10 aspect-video w-full max-w-2xl rounded-full bg-violet-500 mix-bled-screen blur-[120px] filter"
+		class=" showcase__glow absolute -z-10 aspect-video w-full max-w-2xl rounded-full bg-blue-500 mix-bled-screen blur-[120px] filter"
 	></div>
 	{#if slice.primary.heading}
 		<div class="showcase__heading text-balance text-center text-5xl font-medium md:text-7xl">
@@ -93,7 +93,7 @@
 		<div class="grid-background" />
 		<div>
 			{#if slice.primary.icon}
-				<div class="w-fit rounded-lg bg-violet-800 text-3xl p-4">
+				<div class="w-fit rounded-lg bg-blue-800 text-3xl p-4">
 					<svelte:component this={icons[slice.primary.icon]} />
 				</div>
 			{/if}

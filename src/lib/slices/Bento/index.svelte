@@ -2,12 +2,7 @@
 	import clsx from 'clsx';
 	import Bounded from '$lib/components/Bounded.svelte';
 	import type { Content } from '@prismicio/client';
-	import {
-		PrismicImage,
-		PrismicRichText,
-		PrismicText,
-		type SliceComponentProps
-	} from '@prismicio/svelte';
+	import { PrismicRichText, PrismicText, type SliceComponentProps } from '@prismicio/svelte';
 	import GoldText from './GoldText.svelte';
 	import Heading2 from '$lib/components/Heading2.svelte';
 
@@ -24,7 +19,7 @@
 		/>
 	{/if}
 	{#if slice.primary.body}
-		<div class="mx-auto mt-6 max-w-md text-balance text-center text-gray-300">
+		<div class="mx-auto mt-6 max-w-3xl text-balance text-center text-gray-300">
 			<PrismicRichText field={slice.primary.body} />
 		</div>
 	{/if}
@@ -38,11 +33,9 @@
 					)}
 				>
 					<h3 class="text-2xl"><PrismicText field={item.title} /></h3>
-					<div class="max-w-md text-balance text-gray-300">
+					<div class="max-w-lg text-balance text-gray-300">
 						<PrismicRichText field={item.body} />
 					</div>
-
-					<PrismicImage class="max-h-36 w-aut" field={item.image} />
 				</div>
 			{/each}
 		</div>

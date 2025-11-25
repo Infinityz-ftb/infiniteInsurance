@@ -54,14 +54,6 @@
                   "single": "paragraph,strong,em"
                 }
               },
-              "image": {
-                "type": "Image",
-                "config": {
-                  "label": "Image",
-                  "constraint": {},
-                  "thumbnails": []
-                }
-              },
               "wide": {
                 "type": "Boolean",
                 "config": {

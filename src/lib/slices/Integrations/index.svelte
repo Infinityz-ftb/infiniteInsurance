@@ -91,7 +91,7 @@
 	<div class="relative">
 		{#if slice.primary.heading}
 			<h2
-				class="mx-auto max-w-2xl text-balance bg-linear-to-b from-violet-50 to-violet-300 bg-clip-text py-2 text-center text-2xl font-medium text-transparent md:text-7xl"
+				class="mx-auto max-w-2xl text-balance bg-linear-to-b from-blue-50 to-blue-300 bg-clip-text py-2 text-center text-2xl font-medium text-transparent md:text-7xl"
 			>
 				<PrismicText field={slice.primary.heading} />
 			</h2>
@@ -109,7 +109,7 @@
 						<div class="signal-line rotate-180"></div>
 					{/if}
 					<div
-						class="pulsing-icon flex aspect-square shrink-0 items-center justify-center rounded-full border border-violet-50/30 bg-violet-50/25 p-3 text-3xl text-violet-100 opacity-40 md:text-3xl lg:text-5xl"
+						class="pulsing-icon flex aspect-square shrink-0 items-center justify-center rounded-full border border-blue-50/30 bg-blue-50/25 p-3 text-3xl text-blue-100 opacity-40 md:text-3xl lg:text-5xl"
 					>
 						<svelte:component this={icons[item.icon]} />
 					</div>

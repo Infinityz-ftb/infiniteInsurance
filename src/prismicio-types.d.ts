@@ -353,16 +353,6 @@ export interface BentoSliceDefaultPrimaryBentoItem {
 	body: prismic.RichTextField;
 
 	/**
-	 * Image field in *Bento → Default → Primary → Bento*
-	 *
-	 * - **Field Type**: Image
-	 * - **Placeholder**: *None*
-	 * - **API ID Path**: bento.default.primary.bento[].image
-	 * - **Documentation**: https://prismic.io/docs/fields/image
-	 */
-	image: prismic.ImageField<never>;
-
-	/**
 	 * Wide field in *Bento → Default → Primary → Bento*
 	 *
 	 * - **Field Type**: Boolean

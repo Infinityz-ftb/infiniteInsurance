@@ -85,10 +85,11 @@
 		{#if slice.primary.image}
 			<div class="mt-16 w-fit glass-container hero__image opacity-0">
 				<div
-					class="absolute left-1/3 top-0 -z-10 h-2/3 w-2/3 bg-violet-700/50 mix-blend-screen blur-3xl md:blur-[120px] filter hero__glow hero__glow1 opacity-0"
+					class="absolute left-1/3 top-0 -z-10 h-2/3 w-2/3 bg-[#83badd]/50 mix-blend-screen blur-3xl md:blur-[120px] filter hero__glow hero__glow1 opacity-0"
 				></div>
 				<div
-					class="absolute left-0 top-1/3 -z-10 h-2/3 w-2/3 bg-orange-600/50 mix-blend-screen blur-3xl md:blur-[120px] filter hero__glow hero__glow2 opacity-0"
+					class="absolute left-0 top-1/3 -z-10 h-2/3 w-2/3 bg-[#
+					+135d8d]/50 mix-blend-screen blur-3xl md:blur-[120px] filter hero__glow hero__glow2 opacity-0"
 				></div>
 				<PrismicImage class="rounded-lg" field={slice.primary.image} />
 			</div>
