@@ -14,7 +14,7 @@
 			<WordMark />
 			<span class="sr-only">{settings.data.site_title} home page</span>
 		</a>
-		<ul>
+		<!-- <ul>
 			{#each settings.data.navigation as item}
 				<li>
 					<PrismicLink field={item.link} class="inline-flex min-h-11 items-center">
@@ -22,6 +22,6 @@
 					</PrismicLink>
 				</li>
 			{/each}
-		</ul>
+		</ul> -->
 	</nav>
 </footer>
